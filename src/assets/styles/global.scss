@@ -1,0 +1,12 @@
+$text-margin: 0 0 1.5rem;
+
+p,
+blockquote {
+  line-height: 2;
+  margin: $text-margin;
+}
+
+ul {
+  margin: 1rem 2rem;
+  list-style: circle;
+}

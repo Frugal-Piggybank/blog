@@ -1,0 +1,72 @@
+@import "~bulma/sass/utilities/functions";
+// Custom Fonts
+@font-face {
+  font-family: "Quicksand";
+  src: url("../fonts/Quicksand-Medium.ttf");
+}
+@font-face {
+  font-family: "BreeSerif";
+  src: url("../fonts/BreeSerif-Regular.ttf");
+}
+@font-face {
+  font-family: "Lobster";
+  src: url("../fonts/Lobster-Regular.ttf");
+}
+
+// Typography
+$font-heading: "BreeSerif", serif;
+$font-sans-serif: "Quicksand", sans-serif;
+// Colors
+$charleston-green: #282928;
+$platinum: #e6e6e6;
+$cool-grey: #9495b3;
+$independence: #3e3f5b;
+$cultured: #f2f2ef;
+$twitter: #1da1f2;
+$instagram: #e1306c;
+/********
+*********
+Bulma Overrides
+*********
+********/
+
+// // Initial
+$widescreen-enabled: false;
+$fullhd-enabled: false;
+$family-sans-serif: $font-sans-serif;
+// // Derived
+$primary: $charleston-green;
+$text: $charleston-green;
+$text-strong: $charleston-green;
+$scheme-main: $platinum;
+$scheme-main-bis: $platinum;
+$background: $platinum;
+// Title
+$title-family: $font-heading;
+$title-color: $independence;
+// Navbar
+$navbar-background-color: $cultured;
+// Footer
+$footer-background-color: $independence;
+// Menu
+$menu-item-active-color: $platinum;
+$menu-item-active-background-color: $independence;
+// Custom Colors
+$custom-colors: (
+  "twitter": (
+    $twitter,
+    findColorInvert($twitter),
+  ),
+  "instagram": (
+    $instagram,
+    findColorInvert($instagram),
+  ),
+  "cultured": (
+    $cultured,
+    findColorInvert($cultured),
+  ),
+  "platinum": (
+    $platinum,
+    findColorInvert($platinum),
+  ),
+);

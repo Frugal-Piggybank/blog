@@ -1,0 +1,20 @@
+export const PageRoutes = {
+  GettingStarted: {
+    BaseUri: '/getting-started',
+    EmergencyFund: '/emergency-fund',
+    Debt: '/debt',
+    Four01k: '/401k',
+    Ira: '/ira',
+    Savings: '/savings',
+    HYSA: '/hysa',
+    Brokerage: '/brokerage',
+    LifeInsurance: '/life-insurance',
+    Five29: '/529',
+    Mortgage: '/mortgage',
+    Refinancing: '/refinance',
+    MedicalOverview: '/medical-overview',
+    HSA: '/hsa',
+    FSA: '/fsa',
+    StudentLoans: '/student-loans',
+  },
+};
