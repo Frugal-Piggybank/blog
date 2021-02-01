@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `The Frugal Fella`,
+    title: `The Frugal Piggy Bank`,
     description: ``,
     author: ``,
     social: {
-      twitter: `thefrugalfella`,
-      instagram: `the_frugal_fella`,
+      twitter: `frugalpiggybank`,
+      instagram: `frugalpiggybank`,
     },
   },
   plugins: [
@@ -30,7 +30,7 @@ module.exports = {
       },
     },
     {
-      resolve: "gatsby-plugin-react-svg",
+      resolve: 'gatsby-plugin-react-svg',
       options: {
         rule: {
           include: `${__dirname}/src/content/images`,
@@ -47,8 +47,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `The Frugal Fella`,
-        short_name: `thefrugalfella`,
+        name: `The Frugal Piggy Bank`,
+        short_name: `frugalpiggybank`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,

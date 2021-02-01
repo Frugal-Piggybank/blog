@@ -39,7 +39,6 @@ const Sidebar: React.FC = () => {
           href={`${basePath}${paths.LifeInsurance}`}
           title="Life Insurance"
         />
-        <SidebarLink href={`${basePath}${paths.Five29}`} title="529" />
       </ul>
 
       <p className="menu-label">Mortagages</p>
@@ -63,7 +62,7 @@ const Sidebar: React.FC = () => {
 
       <p className="menu-label">Education</p>
       <ul className="menu-list">
-        <SidebarLink href={`${basePath}${paths.Five29}`} title="529" />
+        <SidebarLink href={`${basePath}${paths.Five29}`} title="529 Plan" />
         <SidebarLink
           href={`${basePath}${paths.StudentLoans}`}
           title="Student Loans"

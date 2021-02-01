@@ -1,22 +1,22 @@
-import React from "react";
+import React from 'react';
 
-import GettingStartedLayout from "../../components/getting-started";
-import TextLink from "../../components/getting-started/text-link";
-import { PageRoutes } from "../../utilities/page-route-constants";
-import NextSection from "../../components/getting-started/next-section";
-import ExternalLink from "../../components/shared/external-link";
+import GettingStartedLayout from '../../components/getting-started';
+import TextLink from '../../components/getting-started/text-link';
+import { PageRoutes } from '../../utilities/page-route-constants';
+import NextSection from '../../components/getting-started/next-section';
+import ExternalLink from '../../components/shared/external-link';
 
 const BrokeragePage: React.FC = () => {
   return (
     <GettingStartedLayout
-      pageTitle={"Brokerage Accounts"}
-      pageHeader={"What To Do With All Of That Extra Money?"}
+      pageTitle={'Brokerage Accounts'}
+      pageHeader={'What To Do With All Of That Extra Money?'}
     >
       <p>
         <TextLink
           path={`${PageRoutes.GettingStarted.HYSA}`}
-          text={"High Yield Savings Accounts"}
-        />{" "}
+          text={'High Yield Savings Accounts'}
+        />{' '}
         can be a great place to park your money when your time horizon is only a
         few years out, but what should you do with the money that you really
         don't have a plan for? Like all things personal finance, there are a
@@ -26,15 +26,15 @@ const BrokeragePage: React.FC = () => {
       <p>
         Brokerage accounts can be set up at many different institutions.
         However, unless you have some reason not to, my advice would be to stick
-        with the same one that you chose for your{" "}
-        <TextLink path={`${PageRoutes.GettingStarted.Ira}`} text={"IRA"} />.
+        with the same one that you chose for your{' '}
+        <TextLink path={`${PageRoutes.GettingStarted.Ira}`} text={'IRA'} />.
         This will allow you to manage both accounts in one location.
       </p>
       <p>
         Similar to your IRA, you will have the ability to choose the equities
         you want to hold as a part of your brokerage account. One thing to point
         out, this is <strong>NOT</strong> a tax-sheltered account like your IRA
-        is. What this means for you is that you need to be{" "}
+        is. What this means for you is that you need to be{' '}
         <em>very selective</em> about the types of investments you are holding
         if you really want to make a brokerage account worthwhile.
       </p>
@@ -54,24 +54,24 @@ const BrokeragePage: React.FC = () => {
       </p>
 
       <NextSection
-        linkText={"Life Insurance"}
+        linkText={'Life Insurance'}
         path={PageRoutes.GettingStarted.LifeInsurance}
       >
         My strategy with my own personal brokerage fund has been to stick it in
-        a low-cost,{" "}
+        a low-cost,{' '}
         <ExternalLink
           openNewTab
-          href={"https://investor.vanguard.com/mutual-funds/profile/VTSAX"}
+          href={'https://investor.vanguard.com/mutual-funds/profile/VTSAX'}
         >
           Total Stock Market Index Fund
         </ExternalLink>
         , and continue to let it grow overtime (this means absolutely leaving it
         alone for longer than 1 year). This next section really focuses on
         finances if you have, or are planning to start, a family. If this does
-        not pertain to you, feel free to skip ahead to the{" "}
+        not pertain to you, feel free to skip ahead to the{' '}
         <TextLink
-          path={`${PageRoutes.GettingStarted.MortgageLoans}`}
-          text={"following section"}
+          path={`${PageRoutes.GettingStarted.Mortgage}`}
+          text={'following section'}
         />
         .
       </NextSection>

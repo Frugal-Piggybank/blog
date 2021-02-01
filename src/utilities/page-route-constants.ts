@@ -9,7 +9,7 @@ export const PageRoutes = {
     HYSA: '/hysa',
     Brokerage: '/brokerage',
     LifeInsurance: '/life-insurance',
-    Five29: '/529',
+    Five29: '/529-plan',
     Mortgage: '/mortgage',
     Refinancing: '/refinance',
     MedicalOverview: '/medical-overview',

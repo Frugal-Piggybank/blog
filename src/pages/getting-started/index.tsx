@@ -1,15 +1,15 @@
-import React from "react";
-import { Link } from "gatsby";
+import React from 'react';
+import { Link } from 'gatsby';
 
-import GettingStartedLayout from "../../components/getting-started";
-import NextSection from "../../components/getting-started/next-section";
-import { PageRoutes } from "../../utilities/page-route-constants";
+import GettingStartedLayout from '../../components/getting-started';
+import NextSection from '../../components/getting-started/next-section';
+import { PageRoutes } from '../../utilities/page-route-constants';
 
 const GettingStartedPage: React.FC = () => {
   return (
     <GettingStartedLayout
-      pageTitle={"Getting Started with Personal Finance"}
-      pageHeader={"Your Personal Finance Roadmap"}
+      pageTitle={'Getting Started with Personal Finance'}
+      pageHeader={'Your Personal Finance Roadmap'}
     >
       <p>
         Getting your personal finances in order can be a daunting task,
